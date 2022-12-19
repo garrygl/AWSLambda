@@ -1,7 +1,7 @@
-## AWSLambda - Testing Lambda Serverless Functions and SNS Push Notifications 
+# AWSLambda - Lambda Serverless Functions and SNS Push Notifications Testing 
 
 
-# Abstract: 
+## Abstract: 
 The goal of this portion of the project is to learn node.js serverless functions and associated SNS triggers. This will be accomplished by integrating an IoT tire pressure monitoring system (TPMS). A push notification with the message body "Warning - Low Tire Pressure" is sent via SNS triggers to the following platforms:
 
 - SMS Carrier: TirePressure_ SMS_Push.mjs
@@ -9,7 +9,7 @@ The goal of this portion of the project is to learn node.js serverless functions
 - Apple Push Notification Service (APNS): TirePressure_ APNS_Push.mjs
 - Amazon Device Messaging (ADM): TirePressure_ ADM_Push.mjs
 
-# Assumptions: 
+## Assumptions: 
 A TPMS infrastructure is available on the device, and communications are integrated with an IoT monitoring system.
 
 
