@@ -8,7 +8,7 @@ exports.handler = async (event) => {
     key: 'path/to/key.pem',
   });
 
-  // Set up the notification
+  // Set up for the notification
   const notification = new apn.Notification();
   notification.expiry = Math.floor(Date.now() / 1000) + 3600; // Expires in 1 hour.
   notification.badge = 3;

@@ -9,7 +9,7 @@ exports.handler = async (event) => {
     region: 'YOUR_REGION'
   });
 
-  // Set up the notification
+  // Set up for the notification
   const notification = new adm.Notification();
   notification.expiresAfter = 3600; // Expires in 1 hour.
   notification.data.title = "Alert";

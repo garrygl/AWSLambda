@@ -1,5 +1,5 @@
 const AWS = require('aws-sdk');
-
+  // Set up for the notification
 exports.handler = async (event) => {
   const sns = new AWS.SNS();
   const params = {

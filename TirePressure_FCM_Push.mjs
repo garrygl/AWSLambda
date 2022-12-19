@@ -8,7 +8,7 @@ exports.handler = function(event, context, callback) {
       message: 'Warning - Low Tire Pressure Detected!'
     }
   };
-
+  // Set up for the notification
   request({
     url: 'https://fcm.googleapis.com/fcm/send',
     method: 'POST',
