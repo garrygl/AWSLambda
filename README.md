@@ -2,7 +2,7 @@
 
 
 ## Abstract: 
-The goal of this portion of the project is to learn node.js serverless functions and associated SNS triggers. This will be accomplished by integrating an IoT tire pressure monitoring system (TPMS). A push notification with the message body "Warning - Low Tire Pressure" is sent via SNS triggers to the following platforms:
+The goal of this portion of the project is to study node.js serverless functions and associated SNS triggers. This will be accomplished by integrating an IoT tire pressure monitoring system (TPMS). A push notification with the message body "Warning - Low Tire Pressure" is sent via SNS triggers to the following platforms:
 
 - SMS Carrier: TirePressure_ SMS_Push.mjs
 - Firebase Cloud Messaging (FCM): TirePressure_ FCM_Push.mjs
